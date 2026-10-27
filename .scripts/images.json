@@ -1,7 +1,13 @@
 {
   "images": [
     {
-      "folder": ".",
+      "folder": "node-22",
+      "image_tag": "node:22-trixie-slim",
+      "image_additionnal_tag": "",
+      "platforms": "linux/amd64,linux/arm64"
+    },
+    {
+      "folder": "node-tools-22",
       "image_tag": "node-tools:22-trixie-slim",
       "image_additionnal_tag": "node-tools:22",
       "platforms": "linux/amd64,linux/arm64"
